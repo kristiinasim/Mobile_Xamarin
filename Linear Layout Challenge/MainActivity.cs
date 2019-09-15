@@ -30,7 +30,9 @@ namespace Linear_Layout_Challenge
 
         private void Button1_Click(object sender, System.EventArgs e)
         {
-            
+
+            SetContentView(Resource.Layout.second_layout);
+
         }
         private void Button2_Click(object sender, System.EventArgs e)
         {
