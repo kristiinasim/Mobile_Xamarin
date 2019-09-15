@@ -23,8 +23,8 @@ namespace Linear_Layout_Challenge
 
             button1.Click += Button1_Click;
             button2.Click += Button2_Click;
-            button1.Click += Button1_Click;
-            button1.Click += Button1_Click;
+            button3.Click += Button1_Click;
+            button4.Click += Button1_Click;
 
         }
 
