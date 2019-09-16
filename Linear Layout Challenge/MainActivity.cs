@@ -3,6 +3,10 @@ using Android.OS;
 using Android.Support.V7.App;
 using Android.Runtime;
 using Android.Widget;
+using System;
+using Android.Content;
+using Android.Views;
+using Android.Support.Design.Widget;
 
 namespace Linear_Layout_Challenge
 {
@@ -21,22 +25,37 @@ namespace Linear_Layout_Challenge
             Button button4 = FindViewById<Button>(Resource.Id.button4);
 
 
-            button1.Click += Button1_Click;
+            button1.Click += Button_OnClick;
             button2.Click += Button2_Click;
-            button3.Click += Button1_Click;
-            button4.Click += Button1_Click;
+            button3.Click += Button3_Click;
+            button4.Click += Button4_Click;
+
+
+
+            button1.Click += Button_OnClick; 
 
         }
 
-        private void Button1_Click(object sender, System.EventArgs e)
+        private void Button_OnClick(object sender, EventArgs e)
         {
+            //View view = (View)sender;
+            //Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
+            //    .SetAction("Action", (Android.Views.View.IOnClickListener)null).Show();
+            //SetContentView(Resource.Layout.second_layout);
 
-            SetContentView(Resource.Layout.second_layout);
-
+            Intent intent = new Intent(this, typeof(SecondActivity));
+            StartActivity(intent);
         }
+
+        //private void Button1_Click(object sender, System.EventArgs e)
+        //{
+
+        //}
         private void Button2_Click(object sender, System.EventArgs e)
         {
 
+            Intent intent = new Intent(this, typeof(ThirdActivity));
+            StartActivity(intent);
         }
         private void Button3_Click(object sender, System.EventArgs e)
         {
