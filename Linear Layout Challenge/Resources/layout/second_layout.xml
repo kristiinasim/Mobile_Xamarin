@@ -7,7 +7,7 @@
     <TextView
         android:text="RED"
         android:textColor = "@android:color/black"
-        android:background="@color/red"
+        android:background="@color/Red"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
     <TextView
         android:text="ORANGE"
         android:textColor = "@android:color/black"
-        android:background="@color/orange"
+        android:background="@color/Orange"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
     <TextView
         android:text="YELLOW"
         android:textColor = "@android:color/black"
-        android:background="@color/yellow"
+        android:background="@color/Yellow"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
     <TextView
         android:text="BLUE"
         android:textColor = "@android:color/white"
-        android:background=@color/blue"
+        android:background="@color/Blue"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
     <TextView
         android:text="INDIGO"
         android:textColor = "@android:color/white"
-        android:background="@color/indigo"
+        android:background="@color/Indigo"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
     <TextView
         android:text="VIOLET"
         android:textColor = "@android:color/black"
-        android:background="@color/violet"
+        android:background="@color/Violet"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

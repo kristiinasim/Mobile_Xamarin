@@ -12,13 +12,13 @@ using Android.Widget;
 
 namespace Linear_Layout_Challenge
 {
-    [Activity(Label = "ThirdActivity")]
-    public class ThirdActivity : Activity
+    [Activity(Label = "Fourth_Activity")]
+    public class Fourth_Activity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.third_layout);
+            SetContentView(Resource.Layout.fourth_layout);
             // Create your application here
         }
     }

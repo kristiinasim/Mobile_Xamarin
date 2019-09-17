@@ -59,10 +59,14 @@ namespace Linear_Layout_Challenge
         }
         private void Button3_Click(object sender, System.EventArgs e)
         {
+            Intent intent = new Intent(this, typeof(Fourth_Activity));
+            StartActivity(intent);
 
         }
         private void Button4_Click(object sender, System.EventArgs e)
         {
+            Intent intent = new Intent(this, typeof(FifthActivity));
+            StartActivity(intent);
 
         }
 
