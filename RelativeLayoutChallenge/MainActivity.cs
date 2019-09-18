@@ -17,12 +17,8 @@ namespace RelativeLayoutChallenge
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
-
-            //Button button1 = FindViewById<Button>(Resource.Id.button1);
-            //Button button2 = FindViewById<Button>(Resource.Id.button2);
-            
-
-
+            Button button1 = FindViewById<Button>(Resource.Id.button1);
+            Button button2 = FindViewById<Button>(Resource.Id.button2);
             button1.Click += Button_OnClick;
             button2.Click += Button2_OnClick;
         }
