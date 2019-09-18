@@ -12,13 +12,13 @@ using Android.Widget;
 
 namespace RelativeLayoutChallenge
 {
-    [Activity(Label = "FirstChallenge")]
-    public class FirstChallenge : Activity
+    [Activity(Label = "SecondChallenge")]
+    public class SecondChallenge : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.first_layout);
+
             // Create your application here
         }
     }
