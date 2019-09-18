@@ -13,9 +13,10 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="40"
+        android:layout_height="wrap_content"
         android:minWidth="25px"
         android:minHeight="25px"
+        android:layout_weight="0.08"
         android:id="@+id/textView1"/>
     <TextView
         android:text="ORANGE"
@@ -23,9 +24,11 @@
         android:background="@color/Orange"
         android:textSize = "22dp"
         android:gravity="center"
+        android:layout_weight="0.10"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
-        android:layout_height="50"
+        android:layout_height="wrap_content"
+        
         android:id="@+id/textView2" />
     <TextView
         android:text="YELLOW"
@@ -33,20 +36,21 @@
         android:background="@color/Yellow"
         android:textSize = "22dp"
         android:gravity="center"
+        android:layout_weight="0.12"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
-        android:layout_height="60"
+        android:layout_height="wrap_content"
         android:id="@+id/textView3" />
     <TextView
         android:text="GREEN"
         android:textSize = "22dp"
         android:textColor = "@android:color/black"
         android:background="@color/Green"
-        android:layout_gravity ="0.08"
+        android:layout_weight="0.14"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
-        android:layout_height="80"
+        android:layout_height="wrap_content"
         android:id="@+id/textView4" />
     <TextView
         android:text="BLUE"
@@ -54,20 +58,21 @@
         android:background="@color/Blue"
         android:textSize = "22dp"
         android:gravity="center"
+        android:layout_weight="0.16"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
-        android:layout_height="100"
+        android:layout_height="wrap_content"
         android:id="@+id/textView5" />
     <TextView
         android:text="INDIGO"
         android:textColor = "@android:color/white"
         android:background="@color/Indigo"
         android:textSize = "22dp"
-        android:layout_weight ="0.08"
+        android:layout_weight="0.18"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
-        android:layout_height= "match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/textView6" />
     <TextView
         android:text="VIOLET"
@@ -75,9 +80,10 @@
         android:gravity="center"
         android:textSize = "22dp"
         android:background="@color/Violet"
+        android:layout_weight="0.2"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
-        android:layout_height="120"
+        android:layout_height="wrap_content"
         android:id="@+id/textView7" />>
 >
 
