@@ -11,10 +11,11 @@
         android:background="@color/Red"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:gravity="center"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minWidth="25px"
         android:minHeight="25px"
+        android:padding = "8dp"
         android:id="@+id/textView1"/>
     <TextView
         android:text="ORANGE"
@@ -22,8 +23,10 @@
         android:background="@color/Orange"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:padding = "8dp"
         android:id="@+id/textView2" />
     <TextView
         android:text="YELLOW"
@@ -31,8 +34,10 @@
         android:background="@color/Yellow"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:padding = "8dp"
         android:id="@+id/textView3" />
     <TextView
         android:text="GREEN"
@@ -40,8 +45,10 @@
         android:background="@color/Green"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding = "8dp"
+        android:layout_below="@+id/textView3"
         android:id="@+id/textView4" />
     <TextView
         android:text="BLUE"
@@ -49,8 +56,10 @@
         android:background="@color/Blue"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:padding = "8dp"
         android:id="@+id/textView5" />
     <TextView
         android:text="INDIGO"
@@ -58,18 +67,26 @@
         android:background="@color/Indigo"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding = "8dp"
+         
+        android:layout_below="@+id/textView5"
         android:id="@+id/textView6" />
+
     <TextView
         android:text="VIOLET"
         android:textColor = "@android:color/black"
         android:gravity="center"
         android:background="@color/Violet"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView7" />
+        android:id="@+id/textView7"
+        android:padding = "8dp"
+        android:layout_below="@+id/textView6"
+    
+    />
    
 
 </RelativeLayout>
